@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finding HCF</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="a number-div">
+        <p>Enter the first number</p>
+        <input type="number" id="num1">
+    </div>
+
+    <br>
+
+    <div class="b number-div">
+        <p>Enter the second number</p>
+        <input type="number" id="num2">
+    </div>
+
+    <div class="checking-section">
+        <input type="checkbox" class="checkbox choice1" id="checkbox1" onclick="isChecked()">
+        <p class="checkbox-text choice1" id="checkbox-text1">You want to see the HCF</p><br>
+
+        <input type="checkbox" class="checkbox choice2" id="checkbox2" onclick="isChecked()">
+        <p class="checkbox-text choice2" id="checkbox-text2">You want to see the factors of the first number</p><br>
+
+        <input type="checkbox" class="checkbox choice3" id="checkbox3" onclick="isChecked()">
+        <p class="checkbox-text choice3" id="checkbox-text3">You want to see the factors of the second number</p><br>
+
+        <input type="checkbox" class="checkbox choice4" id="checkbox4" onclick="isChecked()">
+        <p class="checkbox-text choice4" id="checkbox-text4">You want to see the common factors of the numbers</p><br>
+    </div>
+
+    <button type="submit" form="form1" value="Submit" id="Submit" onclick="submitClicked()">Submit</button>
+
+    <div class="allLabels">
+        <div class="conatiner labelAndText HCFdiv d-none" id="HCFdivision">
+            <p class="pTag HCF" id="HCFText">HCF:</p>
+            <label for="name" class="label number-div HCF" id="HCFlabel"></label>
+        </div>
+
+        <div class="conatiner labelAndText factordivision1 d-none" id="factor1divion">
+            <p class="pTag factors1" id="factorsText1">factors of number 1:</p>
+            <label for="name" class="label number-div factors1" id="factordiv1"></label>
+        </div>
+
+        <div class="conatiner labelAndText factordivision2 d-none" id="factor2divion">
+            <p class="pTag factors2" id="factorsText2">factors of number 2:</p>
+            <label for="name" class="label number-div factors2" id="factordiv2"></label>
+        </div>
+
+        <div class="conatiner labelAndText commonFactordivision d-none" id="commonFactors">
+            <p class="pTag CFs" id="commonFactors-Text">common factors:</p>
+            <label for="name" class="label number-div CFs" id="commonFactordiv"></label>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

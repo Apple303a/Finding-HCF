@@ -1,0 +1,102 @@
+body {
+    background: rgb(2, 0, 36);
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(8, 223, 160, 1) 0%, rgba(0, 176, 255, 1) 100%);
+}
+
+#Submit {
+    margin-top: 25px;
+    border-radius: 15px;
+    width: 5rem;
+    height: 1.75rem;
+}
+
+.label {
+    font-weight: normal;
+}
+
+
+/*
+#HCFlabel {
+    background: white;
+    padding: 10px;
+}
+*/
+
+.HCFdiv,
+.pTag {
+    padding: 5px;
+}
+
+.d-none {
+    display: none;
+}
+
+.choice1 {
+    display: inline;
+}
+
+.choice2 {
+    display: inline;
+}
+
+.choice3 {
+    display: inline;
+}
+
+.choice4 {
+    display: inline;
+}
+
+.checkbox {
+    padding: 5px;
+    margin: 15px;
+    margin-right: 0px;
+}
+
+.checkbox-text {
+    padding: 10px;
+}
+
+.checkbox-text:hover {
+    cursor: pointer;
+}
+
+.checkbox:hover {
+    cursor: pointer;
+}
+
+.checking-section {
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+.HCF {
+    display: inline;
+}
+
+.factors1 {
+    display: inline;
+}
+
+.factors2 {
+    display: inline;
+}
+
+.CFs {
+    display: inline;
+}
+
+.pTag {
+    margin: 15px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.allLabels {
+    margin-top: 30px;
+}
+
+.labelAndText {
+    margin: 15px;
+    padding: 5px;
+}
